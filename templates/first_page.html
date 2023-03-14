@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Transfer Automator</title>
+
+    <style>
+
+input[type=number] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.p2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.p1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-submit-button {
+	background: #4794d2;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 40px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+
+.form-submit-button:hover {
+	background: #3a5a72;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 40px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+
+body {
+background-color: rgb(41, 53, 47);
+}
+
+</style>
+</head>
+<body >
+   <center>
+    <br>
+        <div>
+          
+            <h1 class = "p2" style="color:rgb(226, 241, 231)"> File Transfer Automator </h1>
+        
+        </div>
+
+<form method="post">
+</br>
+</br>
+</br>
+</br>
+
+<h3 class = "p2" style="color:rgb(226, 241, 231)"> Please use the buttons below to start or stop the File Transfer Automation...</h3>
+</br>
+</br>
+</br>
+<p class = "p2" style="color:rgb(226, 241, 231)"> Scheduled time: <input  type="number" class="input"  name="timer" min = 0 max = 23 value = "0"></p>
+</br>
+<table>
+    <tr>
+    <td><input type="submit" class = "form-submit-button"  name ="status" value="Start File Transfer"></td>
+    
+    <td style = "width: 15%"></td>
+    <td><input type="submit" class = "form-submit-button"  name ="status" value="Stop File Transfer"></td>
+    </tr> 
+</table>
+
+</form>
+</br>
+</br>
+</br>
+<p style="color:rgb(43, 225, 104)">{{message}}</p>
+
+</center>
+
+</body>
+</html>
