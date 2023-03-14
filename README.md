@@ -4,7 +4,7 @@ A FastAPI application to automate the file transfer, using FTP from a client net
 
 Instructions for usage:
 
-Clone the repository or download the zip.
+Clone the repository or download.
 
 Navigate to "/file_transfer_automator" directory and run the command "pip install -r requirements.txt" to install the dependencies
 
