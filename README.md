@@ -2,7 +2,7 @@
 
 Instructions for usage:
 
-Clone the repository into a local directory, ex: "file_transfer_automator
+Clone the repository or download it.
 
 Navigate to "/file_transfer_automator" directory and run the command "pip install -r requirements.txt" to install the dependencies
 
