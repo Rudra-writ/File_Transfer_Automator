@@ -1,5 +1,7 @@
 # File Transfer Automator with FastAPI
 
+A FastAPI application to automate the file transfer, using FTP from a client network to an internal network at a scheduled time of day. The program downloads the files from the cloud into a local directory and then transfers to a local network if the downloaded file already doesn't exist there. The errors or success messages for transfer of each file, is logged into a log file.
+
 Instructions for usage:
 
 Clone the repository or download the zip.
